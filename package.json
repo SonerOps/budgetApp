@@ -1,0 +1,47 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "Application de gestion de budget personnel - Full Stack",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "start": "./start.sh",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "clean": "rm -rf backend/node_modules frontend/node_modules node_modules",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test"
+  },
+  "keywords": [
+    "budget",
+    "expense",
+    "finance",
+    "angular",
+    "express",
+    "mongodb",
+    "typescript",
+    "bootstrap"
+  ],
+  "author": "Otmanelaissi@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otmanelaissi/budget-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/otmanelaissi/budget-app/issues"
+  },
+  "homepage": "https://github.com/otmanelaissi/budget-app#readme"
+}
