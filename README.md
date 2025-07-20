@@ -1,6 +1,6 @@
 # Budget App - Application de Gestion de Budget Personnel
 
-**Développé par : Otmanelaissi@gmail.com**
+**Développé par : Otmanelaissi@gmail.com** $$
 
 Une application web full-stack moderne pour gérer vos budgets et dépenses personnelles, développée avec Angular, Express.js et MongoDB.
 
